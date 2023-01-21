@@ -167,6 +167,9 @@
           result = "DAY"
         }
     counter.innerHTML = `모집마감<br><h1>D-${result}</h1>`
+    if (result < 0) {
+      counter.innerHTML = `<h1>모집마감</h1>`
+    }
 
   </script>
 </body>
