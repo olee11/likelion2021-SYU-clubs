@@ -46,4 +46,4 @@
 **LIKELION 9th at SYU**<br>
 - Backend : 박미란, 박현서, 이지수, 최정은, 함승우, 황한슬<br>
 - Frontend : 김지연, 박세연, 이민주, 이보람, 주미진<br>
-- Design : 윤예빈, 성에지
+- Design : 윤예빈, 성예지
