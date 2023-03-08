@@ -39,10 +39,10 @@ SECRET_KEY = get_secret("SECRET_KEY")
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
-    'jisoolee.pythonanywhere.com'
+    'jisoolee.pythonanywhere.com', '*'
 ]
 
 
@@ -71,7 +71,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'onlineclub.urls'
+ROOT_URLCONF = 'syu-clubs.urls'
 
 TEMPLATES = [
     {
@@ -89,7 +89,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'onlineclub.wsgi.application'
+WSGI_APPLICATION = 'syu-clubs.wsgi.application'
 
 
 # Database
